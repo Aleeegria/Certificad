@@ -1,0 +1,94 @@
+@import url
+(
+  "https://fonts.googleapis.com/css2?family=Indie+Flower:wght@700;400&display=swap"
+);
+
+body {
+  background: linear-gradient(236.85deg, purple 27.26%, yellow 96.03%);
+  font-family: "Indie Flower", cursiva;
+}
+
+.container {
+  background: #fffaf0;
+  color: blue;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.titulo {
+  margin-left: 16px;
+  align-items: center;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 24px;
+  color: blue;
+  padding: 8px 32px;
+  background: yellow;
+  border-radius: 100px;
+  border-style: none;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(236.85deg, yellow 27.26%, purple 96.03%);
+  margin-top: 48px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  padding: 32px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700px;
+  font-size: 36px;
+  align-items: center;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.projetos-item a {
+  color: blue;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
